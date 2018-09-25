@@ -15,7 +15,7 @@ process.stdin.on('readable', function() {
             case '/sayhello':
                 process.stdout.write('hello!\n');
                 break;
-            case '/ process.env':
+            case '/process.env':
                 process.stdout.write('\nNode.js Version\n')
                 process.stdout.write(process.version);
                 process.stdout.write('\nOS Version\n');
